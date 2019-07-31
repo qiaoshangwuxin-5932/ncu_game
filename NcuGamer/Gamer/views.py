@@ -125,3 +125,18 @@ def ReturnImage2(request):
 
 
 
+@csrf_exempt
+def nine(request):
+    pass
+
+    if request.method == 'POST':
+        d = os.path.dirname(__file__)
+        nineAnswer = [1,2,3,4,5,6,7,8,9]
+        list = request.POST.getlist('list[]') # 数组名字
+        if list == nineAnswer:
+            image = os.path.join(d, "photo/myheart.jpg")
+            data = open(image, 'rb').read()  # 读取图片
+            return HttpResponse(data, content_type='image/png')
+
+
+

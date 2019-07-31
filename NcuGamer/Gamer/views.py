@@ -10,12 +10,14 @@ import os
 from django.core.serializers import serialize
 from .models import User,Questions
 import json as simplejson
+import json
 
 
 class Username(View):
     # username
     def post(self,request,*args,**kwargs):
-        username = request.POST.get('username')
+        received_data = json.load(request.body.decode('utf-8'))
+        username = received_data['username']
         complete = User.objects.filter(username=username)
         if not complete:
             User.objects.create(username=username)

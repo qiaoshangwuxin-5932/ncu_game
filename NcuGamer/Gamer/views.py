@@ -15,6 +15,8 @@ import json as simplejson
 class Username(View):
     # username
     def post(self,request,*args,**kwargs):
+        # received_data = json.load(request.body.decode('utf-8'))  json  链接
+        # username = received_data['username']
         username = request.POST.get('username')
         complete = User.objects.filter(username=username)
         if not complete:
@@ -67,7 +69,7 @@ def Choise(self,request,*args,**kwargs):
             responce = []
             data = req['data']
             answer = data[i]['answer']
-            complete = Questions.objects.filter(group=value,question=oneQ).values('level__%s').format(answer)
+            complete = Questions.objects.filter(group=value,question=oneQ).values('level__%s') %(answer)   # 或者'{0}{1}' .format(xx,cat)
             for a in complete:
                 a = score+a
                 return a
@@ -119,8 +121,18 @@ def ReturnImage2(request):
     obj = User.objects
     d = os.path.dirname(__file__)
     username = request.GET.get('username')
-
-    score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
+    list = [50,65,70,85,100]
+    list1 = [0,1,2,3,4]
+    for i in list1:
+        score =obj.filter(username=username,score__gte=list[i],score__lt=list[i+1]).values('score')
+        if score is not None:
+            print(i)
+            print(score)
+            return i
+        image = os.path.join(d,"photo/%s-$s") %(list[i],list[i+1])
+        data = open(image,'rb').read()
+        return HttpResponse(data,content_type='image/png')
+        # score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
 
 
 

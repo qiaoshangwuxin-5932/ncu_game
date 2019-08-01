@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gamer/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="392">
               <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -39,10 +39,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gamer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="249">
+              <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#224#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +88,7 @@
         <option value="$PROJECT_DIR$/Gamer/Admin/adminmodels.py" />
         <option value="$PROJECT_DIR$/Gamer/Admin/admin.py" />
         <option value="$PROJECT_DIR$/Gamer/models.py" />
+        <option value="$PROJECT_DIR$/Gamer/tests.py" />
         <option value="$PROJECT_DIR$/Gamer/views.py" />
       </list>
     </option>
@@ -102,12 +115,6 @@
               <item name="NcuGamer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NcuGamer" type="462c0819:PsiDirectoryNode" />
               <item name="Gamer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NcuGamer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NcuGamer" type="462c0819:PsiDirectoryNode" />
-              <item name="Gamer" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NcuGamer" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +172,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12660256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1298077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,7 +184,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22515856" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38583508" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3294979" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -199,6 +206,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/Admin/admin.py" />
     <entry file="file://$PROJECT_DIR$/Gamer/Admin/models.py" />
+    <entry file="file://$PROJECT_DIR$/Gamer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NcuGamer/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -206,6 +220,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2128">
           <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#224#233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -218,20 +252,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="249">
+          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

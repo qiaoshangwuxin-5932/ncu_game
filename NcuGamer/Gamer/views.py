@@ -10,14 +10,12 @@ import os
 from django.core.serializers import serialize
 from .models import User,Questions
 import json as simplejson
-import json
 
 
 class Username(View):
     # username
     def post(self,request,*args,**kwargs):
-        received_data = json.load(request.body.decode('utf-8'))
-        username = received_data['username']
+        username = request.POST.get('username')
         complete = User.objects.filter(username=username)
         if not complete:
             User.objects.create(username=username)
@@ -126,11 +124,10 @@ def ReturnImage2(request):
 
 
 
-
+#九宫格
 @csrf_exempt
 def nine(request):
     pass
-
     if request.method == 'POST':
         d = os.path.dirname(__file__)
         nineAnswer = [1,2,3,4,5,6,7,8,9]
@@ -139,6 +136,4 @@ def nine(request):
             image = os.path.join(d, "photo/myheart.jpg")
             data = open(image, 'rb').read()  # 读取图片
             return HttpResponse(data, content_type='image/png')
-
-
 

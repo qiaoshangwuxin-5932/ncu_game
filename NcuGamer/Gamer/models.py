@@ -5,10 +5,10 @@ from django.utils.timezone import now
 
 class User(models.Model):
     username = models.CharField(max_length=20,null=False,blank=False,verbose_name='用户名字')
-    score = models.IntegerField(max_length=20,null=True,verbose_name='分数') #后端计算的分数，与前段无关
+    score = models.IntegerField(null=True,verbose_name='分数') #后端计算的分数，与前段无关
     time = models.DateTimeField(default=now,verbose_name='时间')
     class Meta:
-        db_table = 'sser'
+        db_table = 'user'
         verbose_name = '用户'
         verbose_name_plural = verbose_name
 
@@ -33,9 +33,9 @@ class Questions(models.Model):
 
 class ScoreLevel(models.Model):
     answer = models.ForeignKey(Questions,on_delete=models.SET)
-    A = models.IntegerField(max_length=2,verbose_name='20')
-    B = models.IntegerField(max_length=2,verbose_name='15')
-    C = models.IntegerField(max_length=2,verbose_name='10')
+    A = models.IntegerField(verbose_name='20')
+    B = models.IntegerField(verbose_name='15')
+    C = models.IntegerField(verbose_name='10')
     class Meta:
         db_table = 'level'
         verbose_name = '等级'

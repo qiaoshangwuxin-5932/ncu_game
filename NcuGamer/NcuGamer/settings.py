@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'NcuGamer.wsgi.application'
+# WSGI_APPLICATION = 'NcuGamer.wsgi.application'
 
 
 # Database

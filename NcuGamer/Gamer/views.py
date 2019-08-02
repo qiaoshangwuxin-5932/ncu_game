@@ -12,6 +12,18 @@ from .models import User,Questions
 import json as simplejson
 
 
+
+def index(request):
+    return HttpResponse('xwa')
+
+
+
+
+
+
+
+
+
 class Username(View):
     # username
     def post(self,request,*args,**kwargs):
@@ -35,7 +47,7 @@ class Username(View):
 
 
 
-
+@csrf_exempt
 def Choise(self,request,*args,**kwargs):
     pass
     Post = request.POST

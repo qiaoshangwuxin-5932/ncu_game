@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from Gamer import views
 from django.views.decorators.csrf import csrf_exempt
-from Gamer.sqll import sql
+from Gamer.sqll import sql,sql_level
 
 
 urlpatterns = [
@@ -25,5 +25,5 @@ urlpatterns = [
     path(r'user/',csrf_exempt(views.Username.as_view()),name='用户视图'),
     path('index/',views.index),
     # path(r'update/',sql.update)
-
+    # path('update/',sql_level.level)
 ]

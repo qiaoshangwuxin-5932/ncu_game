@@ -26,4 +26,7 @@ urlpatterns = [
     path('index/',views.index),
     # path(r'update/',sql.update)
     # path('update/',sql_level.level)
+    path('Choise/',views.Choise),
+    path('image/',views.ReturnImage,name='等级图片'),
+    path('nine/',views.nine,name='九宫格')
 ]

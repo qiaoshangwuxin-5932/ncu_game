@@ -202,7 +202,6 @@ values
     '活动流程内容'
     );
 
-
 insert into level
 (A,B,C,answer_id)
 value

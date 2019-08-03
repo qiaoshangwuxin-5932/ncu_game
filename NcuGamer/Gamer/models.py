@@ -20,13 +20,13 @@ class Questions(models.Model):
         ('DES','设计组'),
         ('OPE','运营组'),
     )
-    group = models.CharField(max_length=3,choices=choice,verbose_name='组类')#用来判断题库
+    groups = models.CharField(max_length=3,choices=choice,verbose_name='组类')#用来判断题库
     question = models.TextField(verbose_name='问题')
     option1 = models.CharField(max_length=40,verbose_name='选项A')
     option2 = models.CharField(max_length=40,verbose_name='选项B')
     option3 = models.CharField(max_length=40,verbose_name='选项C')
     class Meta:
-        db_table = 'question'
+        db_table = 'problem'
         verbose_name='游戏问题'
         verbose_name_plural = verbose_name
 

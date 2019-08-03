@@ -1,0 +1,7 @@
+insert into problem
+(groups,question,option1,option2,option3)
+values
+('研发组','我多小','一万岁','十六岁','十五岁')
+
+
+

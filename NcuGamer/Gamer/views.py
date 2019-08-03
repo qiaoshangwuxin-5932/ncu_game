@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.views.generic import View
 from django.utils.decorators import method_decorator
-import os
+import os,json
 from django.core.serializers import serialize
 from .models import User,Questions
 import json as simplejson
@@ -19,17 +19,12 @@ def index(request):
 
 
 
-
-
-
-
-
 class Username(View):
     # username
     def post(self,request,*args,**kwargs):
-        # received_data = json.load(request.body.decode('utf-8'))  json  链接
-        # username = received_data['username']
-        username = request.POST.get('username')
+        # username = request.POST.get('username')
+        req = simplejson.loads(request.body)
+        username = req['username']
         complete = User.objects.filter(username=username)
         if not complete:
             User.objects.create(username=username)
@@ -42,23 +37,23 @@ class Username(View):
                     "status":0,
                     "success":False,
                     "message":msg,
-                }
+                },
+                json_dumps_params={'ensure_ascii': False}
             )
 
 
 
 @csrf_exempt
-def Choise(self,request,*args,**kwargs):
-    pass
-    Post = request.POST
+def Choise(request):
     if request.method == 'POST':
-        username = Post.get('username')
-        getGroup = Post.get('group')
-        value = getGroup.group
-        question = Questions.objects.filter(group=value).values('id','question','option1','option2','option3')
+        req = simplejson.loads(request.body)
+        username = req['username']
+        groups = req['groups']
+        question = Questions.objects.filter(groups=groups).values('id','question','option1','option2','option3')
         list = [0,1,2,3,4]
         for i in list:
             oneQ = question[i]
+            print(question[2])
                 # request_news = [a for a in question]
                 # print(request_news)
             return JsonResponse(
@@ -66,22 +61,22 @@ def Choise(self,request,*args,**kwargs):
                     'status':1,
                     'question':i,
                     'data':{
-                        'id':oneQ.id,
-                        'question':oneQ.question,
-                        'option1':oneQ.option1,
-                        'option2':oneQ.option2,
-                        'option3':oneQ.option3,
+                        'id':oneQ['id'],
+                        'question':oneQ['question'],
+                        'option1':oneQ['option1'],
+                        'option2':oneQ['option2'],
+                        'option3':oneQ['option3'],
                     }
-                }
+                },
+                json_dumps_params={'ensure_ascii': False}
             )
         for i in list:
             oneQ = question[i]
-            req = simplejson.loads(request.raw_post_data)
             score = 0
             responce = []
             data = req['data']
             answer = data[i]['answer']
-            complete = Questions.objects.filter(group=value,question=oneQ).values('level__%s') %(answer)   # 或者'{0}{1}' .format(xx,cat)
+            complete = Questions.objects.filter(groups=groups,question=oneQ).values('level__%s') %(answer)   # 或者'{0}{1}' .format(xx,cat)
             for a in complete:
                 a = score+a
                 return a
@@ -151,13 +146,24 @@ def ReturnImage2(request):
 #九宫格
 @csrf_exempt
 def nine(request):
-    pass
+
     if request.method == 'POST':
         d = os.path.dirname(__file__)
         nineAnswer = [1,2,3,4,5,6,7,8,9]
-        list = request.POST.getlist('list[]') # 数组名字
+        # list = request.POST.getlist('list[]') # 数组名字
+        list = simplejson.loads(request.body)
+        print(list)
         if list == nineAnswer:
             image = os.path.join(d, "photo/myheart.jpg")
             data = open(image, 'rb').read()  # 读取图片
             return HttpResponse(data, content_type='image/png')
+        else:
+            return JsonResponse(
+                {
+                    'status':0,
+                    'success':False,
+                    'message':'你的拼图有错误哦'
+                },
+                json_dumps_params={'ensure_ascii': False}
+            )
 

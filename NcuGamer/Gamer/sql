@@ -1,3 +1,5 @@
+# source /home/qiaoshangwuxin/Desktop/ncu_game/NcuGamer/Gamer/sql
+
 insert into questions
 (id,groups,question,option1,option2,option3)
 values

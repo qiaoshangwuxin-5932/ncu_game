@@ -17,17 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from Gamer import views
 from django.views.decorators.csrf import csrf_exempt
-from Gamer.sqll import sql,sql_level
-
+from Gamer.userAndQuestion import user,pushScore
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'user/',csrf_exempt(views.Username.as_view()),name='用户视图'),
-    path('index/',views.index),
-    # path(r'update/',sql.update)
-    # path('update/',sql_level.level)
-    path('choise/',views.Choise),
-    path('image/',views.ReturnImage,name='等级图片'),
+    path(r'user/',csrf_exempt(user.Username.as_view()),name='用户视图'),
+    path('score/',pushScore.pushScore,name='提交分数'),
+    path('choise/',views.Choise,name='返回题目'),
+    path('image/',views.ReturnImage2,name='等级图片'),
     path('nine/',views.nine,name='九宫格')
 ]
 

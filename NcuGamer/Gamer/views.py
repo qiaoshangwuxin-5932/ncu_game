@@ -5,6 +5,7 @@ from django.shortcuts import render, HttpResponse, render_to_response
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.views.generic import View
+from django.db.models import F
 from django.utils.decorators import method_decorator
 import os,json
 from django.core.serializers import serialize
@@ -12,9 +13,6 @@ from .models import User,Questions
 import json as simplejson
 
 
-
-def index(request):
-    return HttpResponse('xwa')
 
 
 
@@ -43,54 +41,71 @@ class Username(View):
 
 
 
+
 @csrf_exempt
+def index(request):
+    req = simplejson.loads(request.body)
+    username = req['username']
+    question = req['question']
+    answer = req['answer']
+    groups = req['groups']
+    score = User.objects.filter(username=username).values('score')
+    complete = Questions.objects.filter(groups=groups, question=question).values('scorelevel__f(answer)') #% (answer)  # 或者'{0}{1}' .format(xx,cat)
+    for a in complete:
+        print(a)
+        a = a['scorelevel__A']
+        print(a)
+        for score in score:
+            score = score['score']
+            if complete:
+                a = str(a)
+                User.objects.update(username=username,score=F('score')+a)
+                M = User.objects.filter(username=username).values('score')
+                print(M)
+                return HttpResponse('dwad')
+    # for i in range(5):
+    #     oneQ = question[i]
+    #     score = 0
+    #     complete = Questions.objects.filter(groups=groups, question=oneQ).values('level__%s') % (answer)  # 或者'{0}{1}' .format(xx,cat)
+    #     for a in complete:
+    #         a = score + a
+    #         return a
+    # score = a
+    # User.objects.create_or_update(username=username, score=score)
+    # score = User.objects.filter(username=username, ).values('score')
+    # for a in score:
+    #     print(f"{a}")
+    #     return a
+    # pass
+#题目
 def Choise(request):
-    if request.method == 'POST':
-        req = simplejson.loads(request.body)
-        username = req['username']
-        groups = req['groups']
-        question = Questions.objects.filter(groups=groups).values('id','question','option1','option2','option3')
-        list = [0,1,2,3,4]
-        for i in list:
-            oneQ = question[i]
-            print(question[2])
-                # request_news = [a for a in question]
-                # print(request_news)
-            return JsonResponse(
-                {
-                    'status':1,
-                    'question':i,
-                    'data':{
-                        'id':oneQ['id'],
-                        'question':oneQ['question'],
-                        'option1':oneQ['option1'],
-                        'option2':oneQ['option2'],
-                        'option3':oneQ['option3'],
+    if request.method == "POST":
+        if 1>0:
+            req = simplejson.loads(request.body)
+            groups = req['groups']
+            question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')
+            if question:
+                list = [0, 1, 2, 3, 4]
+                d = dict()
+                for i in list:
+                    oneQ = question[i]
+                    d[i] = {
+                        'status': 1,
+                        'question': i+1,
+                        'data':{
+                                'id': oneQ['id'],
+                                'data': {
+                                    'question': oneQ['question'],
+                                    'A': oneQ['option1'],
+                                    'B': oneQ['option2'],
+                                    'C': oneQ['option3'],
+                                }
+                        }
                     }
-                },
-                json_dumps_params={'ensure_ascii': False}
-            )
-        for i in list:
-            oneQ = question[i]
-            score = 0
-            responce = []
-            data = req['data']
-            answer = data[i]['answer']
-            complete = Questions.objects.filter(groups=groups,question=oneQ).values('level__%s') %(answer)   # 或者'{0}{1}' .format(xx,cat)
-            for a in complete:
-                a = score+a
-                return a
-        score = a
-        User.objects.create_or_update(username=username,score=score)
-        score =User.objects.filter(username=username,).values('score')
-        for a in score:
-            print(f"{a}")
-            return a
+            return JsonResponse(d)
 
 
-'''
 
-'''
 #  返回图片
 def ReturnImage(request):
     obj = User.objects

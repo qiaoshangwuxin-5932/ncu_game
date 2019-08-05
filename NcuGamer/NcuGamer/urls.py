@@ -30,3 +30,6 @@ urlpatterns = [
     path('image/',views.ReturnImage,name='等级图片'),
     path('nine/',views.nine,name='九宫格')
 ]
+
+
+

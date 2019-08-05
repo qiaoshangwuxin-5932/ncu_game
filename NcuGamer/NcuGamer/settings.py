@@ -126,3 +126,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, '/photo'),
     ]
+TEMPLATE_DIRS = [
+    os.path.join(BASE_DIR,'Gamer/')
+]

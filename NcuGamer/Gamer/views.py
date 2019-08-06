@@ -9,31 +9,31 @@ from .models import User,Questions
 import json as simplejson
 
 #题目
+@csrf_exempt
 def Choise(request):
     if request.method == "POST":
-        if 1>0:
-            req = simplejson.loads(request.body)
-            groups = req['groups']
-            question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')
-            if question:
-                list = [0, 1, 2, 3, 4]
-                d = dict()
-                for i in list:
-                    oneQ = question[i]
-                    d[i] = {
-                        'status': 1,
-                        'question': i+1,
-                        'data':{
-                                'id': oneQ['id'],
-                                'data': {
-                                    'question': oneQ['question'],
-                                    'A': oneQ['option1'],
-                                    'B': oneQ['option2'],
-                                    'C': oneQ['option3'],
-                                }
-                        }
+        req = simplejson.loads(request.body)
+        groups = req['groups']
+        question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')
+        if question:
+            list = [0, 1, 2, 3, 4]
+            d = dict()
+            for i in list:
+                oneQ = question[i]
+                d[i] = {
+                    'status': 1,
+                    'question': i+1,
+                    'data':{
+                            'id': oneQ['id'],
+                            'data': {
+                                'question': oneQ['question'],
+                                'A': oneQ['option1'],
+                                'B': oneQ['option2'],
+                                'C': oneQ['option3'],
+                            }
                     }
-            return JsonResponse(d)
+                }
+        return JsonResponse(d)
 
 
 
@@ -45,7 +45,6 @@ def ReturnImage(request):
         d = os.path.dirname(__file__)
         req = simplejson.loads(request.body)
         username = req['username']
-        # username = request.POST.get('username')
         score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
         if not score:
             score = obj.filter(username=username,score__gte=70,score__lt=85).values('score')
@@ -104,7 +103,6 @@ def ReturnImage2(request):
 #九宫格
 @csrf_exempt
 def nine(request):
-
     if request.method == 'POST':
         d = os.path.dirname(__file__)
         nineAnswer = [1,2,3,4,5,6,7,8,9]

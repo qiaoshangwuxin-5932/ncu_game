@@ -24,7 +24,7 @@ urlpatterns = [
     path(r'user/',csrf_exempt(user.Username.as_view()),name='用户视图'),
     path('score/',pushScore.pushScore,name='提交分数'),
     path('choise/',views.Choise,name='返回题目'),
-    path('image/',views.ReturnImage2,name='等级图片'),
+    path('image/',views.ReturnImage,name='等级图片'),
     path('nine/',views.nine,name='九宫格')
 ]
 

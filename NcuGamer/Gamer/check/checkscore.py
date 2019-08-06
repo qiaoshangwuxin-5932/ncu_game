@@ -1,5 +1,3 @@
-from django.http import  JsonResponse
-import json as simplejson
 from Gamer.views import User,Questions
 import random
  # 检测

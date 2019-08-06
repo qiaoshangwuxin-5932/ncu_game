@@ -1,4 +1,6 @@
 # ncu_game
+# 推介
+# 游戏
 #用户提交
 ## URL : user/
 ## method : POST

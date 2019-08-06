@@ -4,12 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/Gamer/models.py" description="('RDC','研发组')," line="17" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="">
+    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="md">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamer/REMEDE" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/REMEDE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NcuGamer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +29,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3388">
+                <state relative-caret-position="2212">
                   <caret line="121" column="18" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="121" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
@@ -121,8 +123,8 @@
             <entry file="file://$PROJECT_DIR$/Gamer/REMEDE">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="500">
-                    <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+                  <first_editor relative-caret-position="28">
+                    <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -381,10 +383,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.08226496" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.08226496" />
       <window_info id="Structure" order="2" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
@@ -396,7 +397,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22245763" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36334747" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32838982" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -599,7 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
+        <state relative-caret-position="2212">
           <caret line="121" column="18" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="121" selection-end-column="18" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -610,8 +611,8 @@
     <entry file="file://$PROJECT_DIR$/Gamer/REMEDE">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+          <first_editor relative-caret-position="28">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>

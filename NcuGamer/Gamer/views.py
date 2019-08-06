@@ -7,7 +7,7 @@ from django.http import JsonResponse
 import os
 from .models import User,Questions
 import json as simplejson
-
+from Gamer.check.checkscore import check
 #题目
 @csrf_exempt
 def Choise(request):
@@ -45,6 +45,7 @@ def ReturnImage(request):
         d = os.path.dirname(__file__)
         req = simplejson.loads(request.body)
         username = req['username']
+        check(request,username)
         score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
         if not score:
             score = obj.filter(username=username,score__gte=70,score__lt=85).values('score')

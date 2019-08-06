@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Gamer/models.py" description="('RDC','研发组')," line="17" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamer/remead" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/remead" afterDir="false" />
-    </list>
+    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +15,7 @@
     <favorites_list name="NcuGamer" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33021224">
+    <splitter split-orientation="horizontal" split-proportion="0.4338327">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -49,7 +45,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/user.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
+                <state relative-caret-position="346">
                   <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
                 </state>
               </provider>
@@ -128,7 +124,7 @@
             <entry file="file://$PROJECT_DIR$/Gamer/remead">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="514">
+                  <first_editor relative-caret-position="700">
                     <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
                   </first_editor>
                   <second_editor />
@@ -343,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565007165285</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="user">
+      <created>1565056302764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565056302764</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,10 +360,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.14423077" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.14423077" />
       <window_info id="Structure" order="2" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
@@ -372,7 +374,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22245763" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22245763" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32838982" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,7 +392,8 @@
     <MESSAGE value="用户 九宫已被测试" />
     <MESSAGE value="题目测试" />
     <MESSAGE value="用户，分数隔离" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户，分数隔离" />
+    <MESSAGE value="user" />
+    <option name="LAST_COMMIT_MESSAGE" value="user" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -537,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="346">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
@@ -545,7 +548,7 @@
     <entry file="file://$PROJECT_DIR$/Gamer/remead">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="514">
+          <first_editor relative-caret-position="700">
             <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />

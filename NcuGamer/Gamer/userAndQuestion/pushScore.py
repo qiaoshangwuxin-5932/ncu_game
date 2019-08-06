@@ -2,7 +2,7 @@ import json as simplejson
 from Gamer.models import User,Questions
 from django.views.decorators.csrf import csrf_exempt
 from django.db.models import F
-from django.shortcuts import HttpResponse
+from django.http import JsonResponse
 # 分数
 @csrf_exempt
 def pushScore(request):
@@ -22,4 +22,9 @@ def pushScore(request):
                 if complete:
                     a = str(a)
                     User.objects.filter(username=username).update(score=F('score')+a)
-                    return HttpResponse('dwad')
+                    return JsonResponse(
+                        {
+                            "status":1,
+                            "success":True
+                        }
+                    )

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bab03ab-a9b0-4ff5-981d-a3e7b3ea5134" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NcuGamer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/REMEDE" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/REMEDE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/userAndQuestion/pushScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/userAndQuestion/pushScore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/NcuGamer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/NcuGamer/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/manage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +29,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="309">
-                <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+                <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -196,7 +190,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1450422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1450422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" weight="0.32980832" />
@@ -209,7 +203,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29131356" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29131356" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -269,7 +263,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="309">
-            <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+            <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

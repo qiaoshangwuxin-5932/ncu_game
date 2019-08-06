@@ -9,6 +9,7 @@
             {
                 "username":"username"
             }
+<<<<<<< HEAD
        
 ## 返回数据 :
 
@@ -21,6 +22,19 @@
         
    + deft:
         
+=======
+        '''
+### 返回数据
+#### success:
+'''
+            {
+                'success':True,
+                'status':1
+            }                     
+'''
+#### deft:
+        '''
+>>>>>>> 49ab43c80a137b1a2c8025017237d427e6f6e082
             {
                 "status":0,
                 "success":False,

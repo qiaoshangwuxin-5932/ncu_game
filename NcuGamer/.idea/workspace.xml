@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NcuGamer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/migrations/0002_auto_20190803_0313.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/migrations/0003_auto_20190803_0322.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/migrations/0004_auto_20190803_0341.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/migrations/0005_auto_20190805_0907.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gamer/userAndQuestion/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gamer/remead" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/remead" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +19,17 @@
     <favorites_list name="NcuGamer" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5714286">
+    <splitter split-orientation="horizontal" split-proportion="0.33021224">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gamer/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+                <state relative-caret-position="1228">
+                  <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -46,8 +37,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+                <state relative-caret-position="626">
+                  <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -55,14 +46,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/user.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="1" selection-start-line="1" selection-end-line="2" />
-                  <folding>
-                    <element signature="e#5#29#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="392">
+                  <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -70,7 +58,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/NcuGamer/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
+                <state relative-caret-position="3612">
                   <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
                 </state>
               </provider>
@@ -97,7 +85,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gamer/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
+                <state relative-caret-position="336">
                   <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
@@ -109,7 +97,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gamer/sqll/sql_level.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="504">
                   <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
                 </state>
               </provider>
@@ -118,16 +106,16 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gamer/sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-5684">
+                <state relative-caret-position="28">
                   <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/NcuGamer/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
+                <state relative-caret-position="402">
                   <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
                   <folding>
                     <element signature="e#632#664#0" expanded="true" />
@@ -136,11 +124,13 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/remead">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor />
+                  <first_editor relative-caret-position="514">
+                    <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                  </first_editor>
                   <second_editor />
                 </state>
               </provider>
@@ -172,12 +162,12 @@
         <option value="$PROJECT_DIR$/Gamer/template/test.html" />
         <option value="$PROJECT_DIR$/NcuGamer/settings.py" />
         <option value="$PROJECT_DIR$/Gamer/template/data.py" />
-        <option value="$PROJECT_DIR$/Gamer/remead" />
         <option value="$PROJECT_DIR$/Gamer/models.py" />
         <option value="$PROJECT_DIR$/Gamer/user an question/user.py" />
         <option value="$PROJECT_DIR$/NcuGamer/urls.py" />
         <option value="$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py" />
         <option value="$PROJECT_DIR$/Gamer/views.py" />
+        <option value="$PROJECT_DIR$/Gamer/remead" />
       </list>
     </option>
   </component>
@@ -230,6 +220,12 @@
               <item name="Gamer" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="Gamer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NcuGamer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NcuGamer" type="462c0819:PsiDirectoryNode" />
+              <item name="Gamer" type="462c0819:PsiDirectoryNode" />
+              <item name="userAndQuestion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NcuGamer" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565002182773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="用户，分数隔离">
+      <created>1565007165285</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565007165285</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,7 +360,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.14262821" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.14423077" />
       <window_info id="Structure" order="2" sideWeight="0.5013624" side_tool="true" weight="0.081196584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
@@ -369,7 +372,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22245763" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22245763" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32838982" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,7 +389,8 @@
     <MESSAGE value="sql 导入数据" />
     <MESSAGE value="用户 九宫已被测试" />
     <MESSAGE value="题目测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="题目测试" />
+    <MESSAGE value="用户，分数隔离" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户，分数隔离" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -453,8 +457,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Gamer/template/data.py" />
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/70-85.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/65-70.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1228">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NcuGamer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/template/Gamer/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -463,27 +488,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NcuGamer/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/template/data.py">
+    <entry file="file://$PROJECT_DIR$/Gamer/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/remead">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="336">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -493,37 +503,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/sqll/sql_level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="504">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5684">
+        <state relative-caret-position="28">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/70-85.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/65-70.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/user.py">
+    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        <state relative-caret-position="626">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
-            <element signature="e#5#29#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NcuGamer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="402">
           <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
@@ -531,20 +535,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py">
+    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+    <entry file="file://$PROJECT_DIR$/Gamer/remead">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="514">
+            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

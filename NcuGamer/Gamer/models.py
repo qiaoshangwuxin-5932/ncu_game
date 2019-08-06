@@ -7,6 +7,12 @@ class User(models.Model):
     username = models.CharField(max_length=20,null=False,blank=False,verbose_name='用户名字')
     score = models.IntegerField(null=True,verbose_name='分数',default=0) #后端计算的分数，与前段无关
     time = models.DateTimeField(default=now,verbose_name='时间')
+    groups = models.CharField(max_length=3,verbose_name='组别',null=True)
+    one = models.CharField(max_length=1,verbose_name='选项',null=True)
+    two = models.CharField(max_length=1,verbose_name='选项',null=True)
+    three = models.CharField(max_length=1,verbose_name='选项',null=True)
+    four = models.CharField(max_length=1,verbose_name='选项',null=True)
+    five = models.CharField(max_length=1,verbose_name='选项',null=True)
     class Meta:
         db_table = 'user'
         verbose_name = '用户'

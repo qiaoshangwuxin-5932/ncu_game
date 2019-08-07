@@ -1,0 +1,8 @@
+<!-- 若以http方式访问 -->
+<uwsgi>
+    <http>:80</http>
+    <chdir>/root/ncu_game/NcuGamer</chdir>
+    <module>wsgi</module>
+    <processes>10</processes> <!-- 进程数 -->
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>

@@ -53,19 +53,19 @@ def ReturnImage(request):
                 score = obj.filter(username=username, score__gte=65, score__lt=70).values('score')
                 if not score:
                     '''只剩50~65了'''
-                    image =os.path.join(d,"photo/50-65.png")
+                    image =os.path.join(d,"photo/50-65.jpg")
                     data = open(image, 'rb').read()
                     return HttpResponse(data,content_type='image/png')
                 else:
-                    image = os.path.join(d,"photo/65-70.png")
+                    image = os.path.join(d,"photo/65-70.jpg")
                     data = open(image, 'rb').read()
                     return HttpResponse(data, content_type='image/png')
             else:
-                image = os.path.join(d,"photo/70-85.png")
+                image = os.path.join(d,"photo/70-85.jpg")
                 data = open(image, 'rb').read()
                 return HttpResponse(data,content_type='image/png')
         else:
-            image = os.path.join(d,"photo/1.jpg")
+            image = os.path.join(d,"photo/50-65.jpg")
             data = open(image, 'rb').read()
             return HttpResponse(data, content_type='image/png')
 '''

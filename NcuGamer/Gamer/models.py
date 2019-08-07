@@ -32,7 +32,7 @@ class Questions(models.Model):
     option2 = models.CharField(max_length=40,verbose_name='选项B')
     option3 = models.CharField(max_length=40,verbose_name='选项C')
     class Meta:
-        db_table = 'problem'
+        db_table = 'questions'
         verbose_name='游戏问题'
         verbose_name_plural = verbose_name
 

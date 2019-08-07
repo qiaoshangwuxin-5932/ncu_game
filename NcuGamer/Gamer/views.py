@@ -65,7 +65,7 @@ def ReturnImage(request):
                 data = open(image, 'rb').read()
                 return HttpResponse(data,content_type='image/png')
         else:
-            image = os.path.join(d,"photo/85-100.png")
+            image = os.path.join(d,"photo/1.jpg")
             data = open(image, 'rb').read()
             return HttpResponse(data, content_type='image/png')
 '''

@@ -8,7 +8,7 @@ class Username(View):
     # username
     def post(self,request,*args,**kwargs):
         # username = request.POST.get('username')
-        req = simplejson.loads(request.body)
+        req = simplejson.loads(request.body.decode('utf-8'))
         username = req['username']
         complete = User.objects.filter(username=username)
         if not complete:

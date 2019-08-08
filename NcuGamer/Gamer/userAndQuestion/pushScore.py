@@ -8,7 +8,7 @@ from .mad import mad
 @csrf_exempt
 def pushScore(request):
     if request.method == 'POST':
-        req = simplejson.loads(request.body)
+        req = simplejson.loads(request.body.decode('utf-8'))
         username = req['username']
         question = req['question']
         question_id = req['question_id']

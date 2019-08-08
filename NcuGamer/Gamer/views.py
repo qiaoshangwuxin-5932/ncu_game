@@ -12,8 +12,10 @@ from Gamer.check.checkscore import check
 @csrf_exempt
 def Choise(request):
     if request.method == "POST":
-        req = simplejson.loads(request.body)
+        req = simplejson.loads(request.body.decode('utf-8'))
+        username=req['usrname']
         groups = req['groups']
+        User.objects.filter(username=username).update(groups=groups)
         question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')
         if question:
             list = [0, 1, 2, 3, 4]
@@ -43,7 +45,7 @@ def ReturnImage(request):
     if request.method == 'POST':
         obj = User.objects
         d = os.path.dirname(__file__)
-        req = simplejson.loads(request.body)
+        req = simplejson.loads(request.body.decode('utf-8'))
         username = req['username']
         check(request,username)
         score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
@@ -108,7 +110,7 @@ def nine(request):
         d = os.path.dirname(__file__)
         nineAnswer = [1,2,3,4,5,6,7,8,9]
         # list = request.POST.getlist('list[]') # 数组名字
-        list = simplejson.loads(request.body)
+        list = simplejson.loads(request.body.decode('utf-8'))
         print(list)
         if list == nineAnswer:
             image = os.path.join(d, "photo/myheart.jpg")

@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="0dd02a9f-2d2c-4b20-9b88-dae0c6ab306b">
-        <schema name="NcuGamer" object-types="table, view" />
+        <schema name="NcuGamer" object-types="view, table" />
       </connection>
     </loaded-nodes>
   </component>

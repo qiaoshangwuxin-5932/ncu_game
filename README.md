@@ -31,7 +31,8 @@
 ##method : POST
 ## 须接收数据 : json
    +  
-            {
+            {   
+                "username":"username",
                 "groups":"产品组"
             }
 ## 返回数据 :
@@ -137,6 +138,7 @@
             {
                 "username":"我最帅",
                 "groups":"研发组",
+                "question_id":"1", （就是第一道题)
                 "question":"程序员们的头发数量可能截然不同，但说的话却常相似。研发最喜欢说的一句话可能是?",
                 "answer":"C"
             }

@@ -31,7 +31,8 @@
 ##method : POST
 ## 须接收数据 : json
    +  
-            {   "username":"username",
+            {  
+                "username":"username",
                 "groups":"产品组"
             }
 ## 返回数据 :

@@ -31,13 +31,24 @@ def pushScore(request):
                         if lastAnswer is None:
                             User.objects.filter(username=username).update(score=F('score')+a)
                             mad(b, username, answer, groups)
-                            return JsonResponse(
-                                {
-                                    "status":1,
-                                    "success":True,
-                                    "spark":False
-                                }
-                            )
+                            if b == 'three':
+                                score = User.objects.filter(username=username, score__lte=50)
+                                if score:
+                                    return JsonResponse(
+                                        {
+                                            "status": 1,
+                                            "success": True,
+                                            "spark": True
+                                        }
+                                    )
+                            else:
+                                return JsonResponse(
+                                    {
+                                        "status":1,
+                                        "success":True,
+                                        "spark":False
+                                    }
+                                )
                         else:
                             seqs = Questions.objects.filter(groups=groups, question=question).values('scorelevel__%s' % (lastAnswer))
                             for seq in seqs:
@@ -51,6 +62,7 @@ def pushScore(request):
                                         "status": 1,
                                         "success": True,
                                         "message":"修改成功",
+                                        "spark":False
                                     }
                                 )
 

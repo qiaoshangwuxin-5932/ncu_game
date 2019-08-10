@@ -13,7 +13,7 @@ from Gamer.check.checkscore import check
 def Choise(request):
     if request.method == "POST":
         req = simplejson.loads(request.body.decode('utf-8'))
-        username=req['usrname']
+        username=req['username']
         groups = req['groups']
         User.objects.filter(username=username).update(groups=groups)
         question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')

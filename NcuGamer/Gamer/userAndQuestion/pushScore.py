@@ -41,6 +41,14 @@ def pushScore(request):
                                             "spark": True
                                         }
                                     )
+                                else:
+                                    return JsonResponse(
+                                        {
+                                            "status": 1,
+                                            "success": True,
+                                            "spark": False
+                                        }
+                                    )
                             else:
                                 return JsonResponse(
                                     {

@@ -111,25 +111,24 @@ def nine(request):
         nineAnswer = [0,1,2,3,4,5,6,7,8]
         # list = request.POST.getlist('list[]') # 数组名字
         list = simplejson.loads(request.body.decode('utf-8'))
-        for a in list:
-            list = a['puzzle']
-            print(list)
-            if list == nineAnswer:
-                return JsonResponse(
-                    {
-                        'status':1,
-                    }
-                )
-                # image = os.path.join(d, "photo/myheart.jpg")
-                # data = open(image, 'rb').read()  # 读取图片
-                # return HttpResponse(data, content_type='image/png')
-            else:
-                return JsonResponse(
-                    {
-                        'status':0,
-                        'success':False,
-                        'message':'你的拼图有错误哦'
-                    },
-                    json_dumps_params={'ensure_ascii': False}
-                )
+        list = list['puzzle']
+        if list == nineAnswer:
+            return JsonResponse(
+                {
+                    'status':1,
+                },
+                json_dumps_params={'ensure_ascii': False}
+            )
+            # image = os.path.join(d, "photo/myheart.jpg")
+            # data = open(image, 'rb').read()  # 读取图片
+            # return HttpResponse(data, content_type='image/png')
+        else:
+            return JsonResponse(
+                {
+                    'status':0,
+                    'success':False,
+                    'message':'你的拼图有错误哦'
+                },
+                json_dumps_params={'ensure_ascii': False}
+            )
 

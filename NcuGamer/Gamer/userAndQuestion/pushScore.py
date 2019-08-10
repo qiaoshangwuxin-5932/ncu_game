@@ -35,6 +35,7 @@ def pushScore(request):
                                 {
                                     "status":1,
                                     "success":True,
+                                    "spark":False
                                 }
                             )
                         else:

@@ -150,6 +150,21 @@
                 "success":True,
                 "spark":True,
             }
+   + 如果不是
+            
+            {
+                "status":1,
+                "success":True,
+                "spark":False
+            }
+   + 修改数据：
+        + 
+            {
+                "status": 1,
+                "success": True,
+                "message":"修改成功",
+                "spark":False
+            }
 ---
 
 # 九宫格

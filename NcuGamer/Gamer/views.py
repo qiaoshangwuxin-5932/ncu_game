@@ -37,7 +37,7 @@ def Choise(request):
                 }
         return JsonResponse(d)
 
-
+import base64
 
 #  返回图片
 @csrf_exempt
@@ -57,7 +57,9 @@ def ReturnImage(request):
                     '''只剩50~65了'''
                     image =os.path.join(d,"photo/50-65.jpg")
                     data = open(image, 'rb').read()
-                    return HttpResponse(data,content_type='image/png')
+                    data1 = base64.b64encode(data)
+                    return HttpResponse(data1)
+                    # return HttpResponse(data,content_type='image/png')
                 else:
                     image = os.path.join(d,"photo/65-70.jpg")
                     data = open(image, 'rb').read()

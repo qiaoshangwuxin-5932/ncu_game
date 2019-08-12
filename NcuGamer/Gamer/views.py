@@ -63,15 +63,21 @@ def ReturnImage(request):
                 else:
                     image = os.path.join(d,"photo/65-70.jpg")
                     data = open(image, 'rb').read()
-                    return HttpResponse(data, content_type='image/png')
+                    data1 = base64.b64encode(data)
+                    return HttpResponse(data1)
+                    # return HttpResponse(data, content_type='image/png')
             else:
                 image = os.path.join(d,"photo/70-85.jpg")
                 data = open(image, 'rb').read()
-                return HttpResponse(data,content_type='image/png')
+                data1 = base64.b64encode(data)
+                return HttpResponse(data1)
+                # return HttpResponse(data,content_type='image/png')
         else:
             image = os.path.join(d,"photo/50-65.jpg")
             data = open(image, 'rb').read()
-            return HttpResponse(data, content_type='image/png')
+            data1 = base64.b64encode(data)
+            return HttpResponse(data1)
+            # return HttpResponse(data, content_type='image/png')
 '''
     d = os.path.dirname(__file__)
     image = os.path.join(d,"photo/image/Paper_Architecture_by_Dmitri_Popov.jpg")

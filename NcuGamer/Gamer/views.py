@@ -74,7 +74,7 @@ def ReturnImage(request):
                 return HttpResponse(X+data1)
                 # return HttpResponse(data,content_type='image/png')
         else:
-            img = os.path.join(d,"photo/50-65.jpg")
+            img = os.path.join(d,"photo/85-100.jpg")
             dt = open(img, 'rb').read()
             data1 = base64.b64encode(dt)
             return HttpResponse(X+data1)

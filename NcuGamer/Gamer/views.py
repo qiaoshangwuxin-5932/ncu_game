@@ -48,7 +48,7 @@ def ReturnImage(request):
         req = simplejson.loads(request.body.decode('utf-8'))
         username = req['username']
         check(request,username)
-        X = "data:image/png;"
+        X = "data:image/png;base64,"
         score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
         if not score:
             score = obj.filter(username=username,score__gte=70,score__lt=85).values('score')

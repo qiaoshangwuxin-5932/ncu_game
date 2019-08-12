@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Gamer/models.py" description="('RDC','研发组')," line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="全部base64">
+    <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamer/photo/50-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamer/photo/65-70.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gamer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,27 +27,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="88" />
-          <entry key="py" value="496" />
-          <entry key="txt" value="60" />
+          <entry key="py" value="509" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="88" />
-          <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="496" />
+          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="Python" value="509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="6" />
-          <entry key="png" value="2" />
+          <entry key="png" value="3" />
           <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="8" />
+          <entry key="Image" value="9" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
@@ -72,21 +70,6 @@
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gamer/photo/myheart.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.png">
-              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -113,8 +96,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+                <state relative-caret-position="124">
+                  <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -573,7 +556,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565589722758</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="修改图片">
+      <created>1565590300405</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1565590300405</updated>
+    </task>
+    <task id="LOCAL-00038" summary="修改图片">
+      <created>1565591010943</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1565591010943</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -590,7 +587,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50289017" side_tool="true" weight="0.10738255" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49710983" visible="true" weight="0.108208954" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49710983" visible="true" weight="0.108208954" />
       <window_info id="Structure" order="2" sideWeight="0.50211865" side_tool="true" weight="0.1159188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
@@ -602,7 +599,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3014553" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3014553" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32751676" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -617,7 +614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sql level 数据导入" />
     <MESSAGE value="url 完全体" />
     <MESSAGE value="更改表名" />
     <MESSAGE value="sql 导入数据" />
@@ -642,7 +638,8 @@
     <MESSAGE value="防止空值" />
     <MESSAGE value="base64" />
     <MESSAGE value="全部base64" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部base64" />
+    <MESSAGE value="修改图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改图片" />
   </component>
   <component name="editorHistoryManager">
     <entry file="db://0dd02a9f-2d2c-4b20-9b88-dae0c6ab306b/objects/schemas/NcuGamer/tables/user">
@@ -713,9 +710,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/70-85.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/photo/100.png" />
     <entry file="file://$PROJECT_DIR$/NcuGamer/__init__.py">
@@ -850,16 +844,35 @@
     <entry file="file://$PROJECT_DIR$/Gamer/photo/65-70.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/myheart.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/photo/70-85.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/photo/65-70.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/50-65.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/70-85.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/myheart.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/NcuGamer/settings.py">
@@ -872,26 +885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/userAndQuestion/pushScore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/85-100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/photo/50-65.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        <state relative-caret-position="124">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

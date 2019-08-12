@@ -27,15 +27,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="88" />
-          <entry key="py" value="442" />
-          <entry key="txt" value="38" />
+          <entry key="py" value="491" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="88" />
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="442" />
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Python" value="491" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,8 +125,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+                <state relative-caret-position="399">
+                  <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -564,7 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565423121835</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="base64">
+      <created>1565576936061</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1565576936061</updated>
+    </task>
+    <task id="LOCAL-00035" summary="base64">
+      <created>1565588575743</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1565588575743</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -608,7 +622,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sql" />
     <MESSAGE value="sql question 数据导入" />
     <MESSAGE value="sql level 数据导入" />
     <MESSAGE value="url 完全体" />
@@ -633,7 +646,8 @@
     <MESSAGE value="无返回" />
     <MESSAGE value="确定数组" />
     <MESSAGE value="防止空值" />
-    <option name="LAST_COMMIT_MESSAGE" value="防止空值" />
+    <MESSAGE value="base64" />
+    <option name="LAST_COMMIT_MESSAGE" value="base64" />
   </component>
   <component name="editorHistoryManager">
     <entry file="db://0dd02a9f-2d2c-4b20-9b88-dae0c6ab306b/objects/schemas/NcuGamer/tables/user">
@@ -875,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="399">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

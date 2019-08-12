@@ -48,6 +48,7 @@ def ReturnImage(request):
         req = simplejson.loads(request.body.decode('utf-8'))
         username = req['username']
         check(request,username)
+        X = "data:image/png;"
         score = obj.filter(username=username,score__gte=85,score__lte=100).values('score')
         if not score:
             score = obj.filter(username=username,score__gte=70,score__lt=85).values('score')
@@ -55,28 +56,28 @@ def ReturnImage(request):
                 score = obj.filter(username=username, score__gte=65, score__lt=70).values('score')
                 if not score:
                     '''只剩50~65了'''
-                    image =os.path.join(d,"photo/50-65.jpg")
-                    data = open(image, 'rb').read()
-                    data1 = base64.b64encode(data)
-                    return HttpResponse(data1)
+                    img =os.path.join(d,"photo/50-65.jpg")
+                    dt = open(img, 'rb').read()
+                    data1 = base64.b64encode(dt)
+                    return HttpResponse(X+data1)
                     # return HttpResponse(data,content_type='image/png')
                 else:
-                    image = os.path.join(d,"photo/65-70.jpg")
-                    data = open(image, 'rb').read()
-                    data1 = base64.b64encode(data)
-                    return HttpResponse(data1)
+                    img = os.path.join(d,"photo/65-70.jpg")
+                    dt = open(img, 'rb').read()
+                    data1 = base64.b64encode(dt)
+                    return HttpResponse(X+data1)
                     # return HttpResponse(data, content_type='image/png')
             else:
-                image = os.path.join(d,"photo/70-85.jpg")
-                data = open(image, 'rb').read()
-                data1 = base64.b64encode(data)
-                return HttpResponse(data1)
+                img = os.path.join(d,"photo/70-85.jpg")
+                dt = open(img, 'rb').read()
+                data1 = base64.b64encode(dt)
+                return HttpResponse(X+data1)
                 # return HttpResponse(data,content_type='image/png')
         else:
-            image = os.path.join(d,"photo/50-65.jpg")
-            data = open(image, 'rb').read()
-            data1 = base64.b64encode(data)
-            return HttpResponse(data1)
+            img = os.path.join(d,"photo/50-65.jpg")
+            dt = open(img, 'rb').read()
+            data1 = base64.b64encode(dt)
+            return HttpResponse(X+data1)
             # return HttpResponse(data, content_type='image/png')
 '''
     d = os.path.dirname(__file__)

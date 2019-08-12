@@ -58,25 +58,25 @@ def ReturnImage(request):
                     '''只剩50~65了'''
                     img =os.path.join(d,"photo/50-65.jpg")
                     dt = open(img, 'rb').read()
-                    data1 = base64.b64encode(dt)
+                    data1 = base64.b64encode(dt).decode('utf-8')
                     return HttpResponse(X+'%s'%(data1))
                     # return HttpResponse(data,content_type='image/png')
                 else:
                     img = os.path.join(d,"photo/65-70.jpg")
                     dt = open(img, 'rb').read()
-                    data1 = base64.b64encode(dt)
+                    data1 = base64.b64encode(dt).decode('utf-8')
                     return HttpResponse(X+'%s'%(data1))
                     # return HttpResponse(data, content_type='image/png')
             else:
                 img = os.path.join(d,"photo/70-85.jpg")
                 dt = open(img, 'rb').read()
-                data1 = base64.b64encode(dt)
+                data1 = base64.b64encode(dt).decode('utf-8')
                 return HttpResponse(X+'%s'%(data1))
                 # return HttpResponse(data,content_type='image/png')
         else:
             img = os.path.join(d,"photo/85-100.jpg")
             dt = open(img, 'rb').read()
-            data1 = base64.b64encode(dt)
+            data1 = base64.b64encode(dt).decode('utf-8')
             return HttpResponse(X+'%s'%(data1))
             # return HttpResponse(data, content_type='image/png')
 '''

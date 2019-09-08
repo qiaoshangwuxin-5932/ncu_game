@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bab03ab-a9b0-4ff5-981d-a3e7b3ea5134" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/.idea/NcuGamer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/.idea/NcuGamer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NcuGamer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/photo/50-65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/photo/50-65.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/photo/65-70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/photo/65-70.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/photo/70-85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/photo/70-85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NcuGamer/Gamer/photo/85-100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NcuGamer/Gamer/photo/85-100.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

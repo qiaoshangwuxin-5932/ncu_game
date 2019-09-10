@@ -8,6 +8,7 @@ import os
 from .models import User,Questions
 import json as simplejson
 from Gamer.check.checkscore import check
+import random
 #题目
 @csrf_exempt
 def Choise(request):
@@ -18,9 +19,10 @@ def Choise(request):
         User.objects.filter(username=username).update(groups=groups)
         question = Questions.objects.filter(groups=groups).values('id', 'question', 'option1', 'option2', 'option3')
         if question:
-            list = [0, 1, 2, 3, 4]
+            question=random.sample(list(question),5)
+            lists = [0, 1, 2, 3,4]
             d = dict()
-            for i in list:
+            for i in lists:
                 oneQ = question[i]
                 d[i] = {
                     'status': 1,

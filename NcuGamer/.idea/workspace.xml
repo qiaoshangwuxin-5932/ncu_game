@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143e97df-e780-496c-bc76-459a09d3ee85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gamer/second_sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gamer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gamer/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +30,16 @@
         <counts>
           <entry key="md" value="88" />
           <entry key="py" value="971" />
-          <entry key="second_sql" value="475" />
+          <entry key="second_sql" value="478" />
           <entry key="sql" value="28" />
-          <entry key="txt" value="90" />
+          <entry key="txt" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="DBN-SQL" value="28" />
           <entry key="Markdown" value="88" />
-          <entry key="PLAIN_TEXT" value="565" />
+          <entry key="PLAIN_TEXT" value="582" />
           <entry key="Python" value="971" />
         </counts>
       </usages-collector>
@@ -135,8 +133,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/second_sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-675">
-                  <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+                <state relative-caret-position="154">
+                  <caret line="204" column="6" lean-forward="true" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -153,8 +151,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gamer/sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5825">
-                  <caret line="233" column="14" lean-forward="true" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
+                <state relative-caret-position="-4750">
+                  <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -649,7 +647,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567944841030</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="第二套题">
+      <created>1568090445250</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1568090445251</updated>
+    </task>
+    <task id="LOCAL-00042" summary="第二套题修改">
+      <created>1568091278552</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1568091278552</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -670,7 +682,7 @@
       <window_info id="Structure" order="2" sideWeight="0.50211865" side_tool="true" weight="0.1159188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838982" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,7 +690,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.304698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.304698" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3261745" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,8 +705,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更改表名" />
-    <MESSAGE value="sql 导入数据" />
     <MESSAGE value="用户 九宫已被测试" />
     <MESSAGE value="题目测试" />
     <MESSAGE value="用户，分数隔离" />
@@ -718,7 +728,9 @@
     <MESSAGE value="全部base64" />
     <MESSAGE value="加 前缀" />
     <MESSAGE value="修改图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改图片" />
+    <MESSAGE value="第二套题" />
+    <MESSAGE value="第二套题修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二套题修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="db://0dd02a9f-2d2c-4b20-9b88-dae0c6ab306b/objects/schemas/NcuGamer/tables/level">
@@ -962,13 +974,6 @@
     <entry file="file://$PROJECT_DIR$/Gamer/two_insert">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gamer/sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5825">
-          <caret line="233" column="14" lean-forward="true" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -979,10 +984,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gamer/sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4750">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gamer/second_sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="204" column="6" lean-forward="true" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
         </state>
       </provider>
     </entry>

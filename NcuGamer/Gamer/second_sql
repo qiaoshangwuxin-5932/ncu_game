@@ -202,12 +202,12 @@ values
     '霸道总裁',
     '老夫子',
     '饲养员'
-    ),
+    )；
 
 
 insert into level
 (A,B,C,answer_id)
-value
+values
 (15,10,20,26),
 (10,15,20,27),
 (10,15,20,28),
